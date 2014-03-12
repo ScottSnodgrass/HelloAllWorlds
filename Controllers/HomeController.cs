@@ -13,7 +13,7 @@ namespace HelloAllWorlds.Controllers
         // GET: /Home/
         public ActionResult Index()
         {
-            Trace.WriteLine("Hello from ASP.NET MVC!");
+            Trace.WriteLine("Hello from ASP.NET MVC!!!!!!");
             ViewBag.Message = "Hello all worlds";
             return View();
         }
