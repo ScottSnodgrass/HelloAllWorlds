@@ -97,6 +97,14 @@
     <Content Include="hello.js" />
     <Content Include="hello.php" />
     <None Include="Properties\PublishProfiles\helloallworlds.pubxml" />
+    <Content Include="LICENSE.html">
+      <DependentUpon>LICENSE.md</DependentUpon>
+    </Content>
+    <Content Include="LICENSE.md" />
+    <Content Include="README.html">
+      <DependentUpon>README.md</DependentUpon>
+    </Content>
+    <Content Include="README.md" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
